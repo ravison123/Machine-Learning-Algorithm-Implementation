@@ -6,3 +6,4 @@ This jupyter notebook file implements linear regression algorithm using Python N
 3. Logistic Regression: Implemented Logistic Regression on Breast Cancer dataset using Batch / Stochastic gradient descent algorithms. Binary classification metrics like (accuracy, precision, recall and F1 score) has been calculated.
 4. Perceptron Algorithm: Implemented Perceptron algorithm for classification of synthetic data generated using Sciki-learn library.
 5. Softmax regression: Implemented softmax regression for multiclass classification. The dataset used for the implementation is a 3 class synthetic dataset created using Sciki-learn library. The implementation is inspired from Neural Network implementation.
+6. Support Vector Machine: Implemented Support Vector Machine algorithm using SMO optimization method. Implemented 'rbf', 'linear', 'polynomial' and 'sigmoid' kernels. Demonstrated capabilities of the kernels on a synthetic dataset created using Sci-kit learn.
