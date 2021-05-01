@@ -16,10 +16,11 @@ Example of using LinearRegression class:
 * Support Vector Machine: Implemented Support Vector Machine algorithm using SMO optimization method. Implemented 'rbf', 'linear', 'polynomial' and 'sigmoid' kernels. Demonstrated capabilities of the kernels on a synthetic dataset created using Sci-kit learn.
 * Gaussian Discriminant Analysis (GDA): Implemented GDA algorithm with the option of setting same /different covariance matrix for positive and negative examples. As it can be seen from the notebook that the decision boundary for same covariance case is linear (it should also be the same decision boundary as that of Logistic Regression). For different coviariance case, the decision boundary is non-linear which results into much better fit to the data.
 * Naive Bayes algorithm: Implementation of Naive Bayes is added.
-Implementation of following algorithms is pending:
-- [] Support Vector Regression
-- [] Decision Trees
-- [] Fully connected Neural Network
-- [] Cross Validation (k-fold, leave one out cross validation)
-- [] Feature Selection Algorithm
-- [] Kernalized Linear / Logistic Regression
+
+# Implementation of following algorithms is pending:
+- [ ] Support Vector Regression
+- [ ] Decision Trees
+- [ ] Fully connected Neural Network
+- [ ] Cross Validation (k-fold, leave one out cross validation)
+- [ ] Feature Selection Algorithm
+- [ ] Kernalized Linear / Logistic Regression
