@@ -1,7 +1,12 @@
 # Machine-Learning-Algorithm-Implementation
 This repository is for implementation of machine learning algorithms from scratch (using Python Numpy)
-1. Linear Regression (Notebook name: Linear Regeression.ipynb)
-This jupyter notebook file implements linear regression algorithm using Python Numpy library. The notebook contains implementation of linear regression using "Batch Gradient Descent Optimization" algorithm and also using "Normal Equation".
+* Linear Regression (Notebook name: Linear Regeression.ipynb)
+This jupyter notebook file implements linear regression algorithm using Python Numpy library. The notebook contains implementation of linear regression using Normal Equation, Batch Gradient Descent, Stochastic Gradient Descent and Newton's method.
+Example of using LinearRegression class
+'''lr1 = LinearRegression()
+lr1.fit(X_train, y_train, dummy_feature_add = True)
+y_test_pred = lr1.predict(X_test, dummy_feature_add = True)
+r_square = lr1.r_square(y_test, y_test_pred)'''
 2. Locally Weighted Linear Regression: Implemented locally weighted linear regression using Batch Gradient Descent, Stochastic Gradient Descent and Normal Equations. Effect of bandwidth parameter on the predictions is also analyzed.
 3. Logistic Regression: Implemented Logistic Regression on Breast Cancer dataset using Batch / Stochastic gradient descent algorithms. Binary classification metrics like (accuracy, precision, recall and F1 score) has been calculated.
 4. Perceptron Algorithm: Implemented Perceptron algorithm for classification of synthetic data generated using Sciki-learn library.
